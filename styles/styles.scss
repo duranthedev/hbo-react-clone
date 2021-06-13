@@ -1,0 +1,15 @@
+@use 'reset';
+@use 'login';
+@use 'create-user';
+@use '../components/UI/Header/_header.scss';
+@use '../components/UI/SideNav/side-nav';
+@use '../components/UI/FeaturedMedia/FeaturedMedia.scss';
+@use '../components/UI/ForYouList/ForYouList';
+@use '../components/ui/JustAdded/JustAdded';
+@use '../components/ui/PosterView/PosterView';
+@use '../components/UI/CastInfo/CastInfo';
+@use '../components/UI/Account/Account';
+@use '../components/UI/SearchModal/SearchModal';
+h1 {
+  font-size: 3rem;
+}
